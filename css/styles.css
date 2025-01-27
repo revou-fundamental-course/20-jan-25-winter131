@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #9a9a9a;
+    background-color: whitesmoke;
 }
 nav{
     background-color: white;
@@ -25,6 +25,7 @@ nav ul{
 }
 nav ul li a {
     color: #0b4a8c;
+    justify-content: center;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500 ;
@@ -32,4 +33,38 @@ nav ul li a {
 }
 nav ul li a:hover{
     border-bottom: 1px solid black ;
+}
+
+.row{
+    justify-items: center;
+    padding: 20px;
+    background-color: aquamarine;
+    
+}
+
+.form-grup{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.button{
+    padding: none;
+    border: none;
+    color: #000;;
+    
+}
+
+.article-right{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    column-gap: 5rem;
+    
+}
+
+#result-bmi{
+    font-size: xxx-large;
 }
