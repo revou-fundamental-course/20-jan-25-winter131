@@ -1,56 +1,33 @@
-main {
-  display: flex;
-  gap: 32px;
-  padding: 32px;
+*, html{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-footer {
-  text-align: center;
+body{
+    background-color: #9a9a9a;
 }
-
-.main-header {
-  text-align: center;
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
 }
-
-input[type="number"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+nav div img{
+    width: 50px;;
 }
-
-form {
-  background-color: antiquewhite;
-  padding: 32px;
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
 }
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 16px;
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900 ;
 }
-
-button {
-  border: none;
-  padding: 8px;
-  color: antiquewhite;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.bg-cadet-blue {
-  background-color: cadetblue;
-}
-
-.result-section {
-  padding: 16px;
-  text-align: center;
-  background-color: antiquewhite;
-}
-
-#result-bmi {
-  font-size: xxx-large;
-  font-family: math;
+nav ul li a:hover{
+    border-bottom: 10px solid ;
 }
