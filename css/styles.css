@@ -50,11 +50,10 @@ nav ul li a:hover{
     padding-bottom: 20px;
 }
 
-.button{
-    padding: none;
-    border: none;
-    color: #000;;
-    
+.button-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .article-right{
