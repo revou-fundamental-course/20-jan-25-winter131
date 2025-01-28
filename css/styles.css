@@ -39,6 +39,7 @@ nav ul li a:hover {
 }
 
 .coloumn {
+  margin-right: 60px;
   width: 45%;
   display: inline-block;
   vertical-align: top;
